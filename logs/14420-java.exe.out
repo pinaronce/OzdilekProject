@@ -1,0 +1,65 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 774milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 774"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 54530"}
+{"logLevel":"info","message":"Listening on port:54530"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'steps.HomeSteps.isStartShoppingButtonSelected' and 'steps.HomeSteps.isStartShoppingButtonSelected'"}
+{"logLevel":"debug","message":"Found Alisverise basla butonuna tiklanir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.CategorySteps.isScrollDown' and 'steps.CategorySteps.isScrollDown'"}
+{"logLevel":"debug","message":"Found Sayfanin en asagasina dogru iki kere scroll edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.HomeSteps.isLogoDisplayed' and 'steps.HomeSteps.isLogoDisplayed'"}
+{"logLevel":"debug","message":"Found Uygulamanin acildigi kontrol edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.HomeSteps.isCategorySelected' and 'steps.HomeSteps.isCategorySelected'"}
+{"logLevel":"debug","message":"Found Kategoriler sayfasi acilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.CategorySteps.checkPageOpened' and 'steps.CategorySteps.checkPageOpened'"}
+{"logLevel":"debug","message":"Found Kategoriler sayfasinin acildigi dogrulanir.  in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.LoginSteps.isLoginPageOpened' and 'steps.LoginSteps.isLoginPageOpened'"}
+{"logLevel":"debug","message":"Found Giris yapma sayfasinin acildigi dogrulanır. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.LoginSteps.passwordEntered' and 'steps.LoginSteps.passwordEntered'"}
+{"logLevel":"debug","message":"Found Password alanina sifre yazilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.ProductSteps.isProductAddedToBasket' and 'steps.ProductSteps.isProductAddedToBasket'"}
+{"logLevel":"debug","message":"Found Secilen urun sepete eklenir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.ProductSteps.isToFavorites' and 'steps.ProductSteps.isToFavorites'"}
+{"logLevel":"debug","message":"Found Favoriler butonuna tiklanir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.CategorySteps.isCategoryClicked' and 'steps.CategorySteps.isCategoryClicked'"}
+{"logLevel":"debug","message":"Found Pantolon kategorisi acilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.LoginSteps.backClicked' and 'steps.LoginSteps.backClicked'"}
+{"logLevel":"debug","message":"Found Geri butonuna tiklanir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.LoginSteps.mailEntered' and 'steps.LoginSteps.mailEntered'"}
+{"logLevel":"debug","message":"Found Kullanici adi alanina text bilgisi girilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.HomeSteps.isMarketOpened' and 'steps.HomeSteps.isMarketOpened'"}
+{"logLevel":"debug","message":"Found Alışveris sayfasinin acildigi dogrulanir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.CategorySteps.isGenderClicked' and 'steps.CategorySteps.isGenderClicked'"}
+{"logLevel":"debug","message":"Found Menüden kadin secenegine tiklanir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.CategorySteps.isRandomProductSelected' and 'steps.CategorySteps.isRandomProductSelected'"}
+{"logLevel":"debug","message":"Found Urunlerden rastgele bir urun secilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.ProductSteps.isProductPageOpened' and 'steps.ProductSteps.isProductPageOpened'"}
+{"logLevel":"debug","message":"Found Urun detay sayfasi acildigi kontrol edilir. in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tPantolon kategorisi acilir. : public void isCategoryClicked()"}
+{"logLevel":"debug","message":"\tAlışveris sayfasinin acildigi dogrulanir. : public void isMarketOpened()"}
+{"logLevel":"debug","message":"\tPassword alanina sifre yazilir. : public void passwordEntered()"}
+{"logLevel":"debug","message":"\tKategoriler sayfasinin acildigi dogrulanir.  : public void checkPageOpened()"}
+{"logLevel":"debug","message":"\tKategoriler sayfasi acilir. : public void isCategorySelected()"}
+{"logLevel":"debug","message":"\tKullanici adi alanina text bilgisi girilir. : public void mailEntered()"}
+{"logLevel":"debug","message":"\tUrunlerden rastgele bir urun secilir. : public void isRandomProductSelected() throws InterruptedException"}
+{"logLevel":"debug","message":"\tUygulamanin acildigi kontrol edilir. : public void isLogoDisplayed() throws InterruptedException"}
+{"logLevel":"debug","message":"\tMenüden kadin secenegine tiklanir. : public void isGenderClicked()"}
+{"logLevel":"debug","message":"\tUrun detay sayfasi acildigi kontrol edilir. : public void isProductPageOpened()"}
+{"logLevel":"debug","message":"\tAlisverise basla butonuna tiklanir. : public void isStartShoppingButtonSelected()"}
+{"logLevel":"debug","message":"\tGeri butonuna tiklanir. : public void backClicked()"}
+{"logLevel":"debug","message":"\tFavoriler butonuna tiklanir. : public void isToFavorites() throws InterruptedException"}
+{"logLevel":"debug","message":"\tGiris yapma sayfasinin acildigi dogrulanır. : public void isLoginPageOpened()"}
+{"logLevel":"debug","message":"\tSayfanin en asagasina dogru iki kere scroll edilir. : public void isScrollDown()"}
+{"logLevel":"debug","message":"\tSecilen urun sepete eklenir. : public void isProductAddedToBasket() throws InterruptedException"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
